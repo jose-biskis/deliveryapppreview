@@ -1,0 +1,12 @@
+export {default as HomeTemplate} from './home/index';
+export {default as HomeFilterTemplate} from './home-filter/index';
+export {default as CategoryTemplate} from './category/index';
+export {default as ProductTemplate} from './product/index';
+export {default as StoreTemplate} from './store/index';
+export {default as ProfileTemplate} from './profile/index';
+export {default as ShoppingCartTemplate} from './shopping-cart/index';
+export {default as BusinessRegisterTemplate} from './business-register/index';
+export {default as HelpCenterTemplate} from './help-center/index';
+export {default as SignupTemplate} from './signup/index';
+export {default as PromotionTemplate} from './promotion/index';
+export {default as OrderTemplate} from './order/index';

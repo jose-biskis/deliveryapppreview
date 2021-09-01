@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "TuPedido.co",
+    "slug": "Tupedidoapp",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.1.1",
+    "orientation": "portrait", 
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tupedido.co",
+      "supportsTablet": true,
+      "icon":  "./src/assets/icon-square-ios.png",
+      "config" : {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.tupedido.co",
+      "versionCode": 11,
+      "icon": "./src/assets/icon-square.png"
+    },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "expo.ts",
+        "expo.tsx",
+        "expo.js",
+        "expo.jsx",
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "wasm",
+        "svg"
+      ]
+    }
+  }
+}
